@@ -2,23 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Onilogic IT Services</title>
   <link rel="stylesheet" href="style.css">
-
-  
-
- 
 </head>
 
 <body>
 
-  <!-- HEADER -->
-
   <header>
-
-    <img src="logo.png" alt="Onilogic Logo" class="logo">
+    <img src="https://codehs.com/uploads/044b32b7903ad35adfa31ae4fba84f0d" alt="Onilogic Logo" class="logo">
 
     <nav>
       <a href="#home">Home</a>
@@ -26,150 +19,107 @@
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
-
   </header>
 
-  <!-- HERO SECTION -->
-
   <section class="hero" id="home">
-
-    <img src="logo.png" alt="Onilogic Logo" class="hero-logo">
+    <img src="https://codehs.com/uploads/044b32b7903ad35adfa31ae4fba84f0d" alt="Onilogic Logo" class="hero-logo">
 
     <h1>Onilogic IT Services</h1>
 
-    <p>
-      Reliable IT Support & Cybersecurity for Small Businesses
-    </p>
+    <p>Secure Websites for Small Businesses, Churches, and Nonprofits</p>
 
-    <a href="#contact" class="btn">Contact Us</a>
+    <a href="#contact" class="btn">Get a Free Website Review</a>
 
+    <p class="small-text">Free Website Review Available</p>
   </section>
 
-  <!-- SERVICES -->
-
   <section id="services">
-
     <h2 class="section-title">Our Services</h2>
 
     <div class="services-container">
 
       <div class="service-card">
-        <h3>Managed IT Support</h3>
-
+        <h3>Secure Website Development</h3>
+        <p><strong>Starting at $1,500</strong></p>
         <p>
-          Reliable remote and onsite IT support for businesses,
-          organizations, and professionals.
+          Professional websites for small businesses, churches, and nonprofits.
+          Mobile-friendly, secure, and designed to help you grow online.
         </p>
       </div>
 
       <div class="service-card">
-        <h3>Microsoft 365 Support</h3>
-
+        <h3>Website Maintenance</h3>
+        <p><strong>Starting at $99/month</strong></p>
         <p>
-          User management, Outlook support, Teams setup,
-          password resets, and MFA configuration.
+          Ongoing website updates, backups, content changes, and monitoring
+          to keep your website secure and running smoothly.
         </p>
       </div>
 
       <div class="service-card">
-        <h3>Cybersecurity Support</h3>
-
+        <h3>Website Security Review</h3>
+        <p><strong>Starting at $299</strong></p>
         <p>
-          Basic cybersecurity setup, account protection,
-          security awareness, and business security guidance.
-        </p>
-      </div>
-
-      <div class="service-card">
-        <h3>Network & Wi-Fi Support</h3>
-
-        <p>
-          Wi-Fi troubleshooting, router setup,
-          printer connectivity, and office network support.
-        </p>
-      </div>
-
-      <div class="service-card">
-        <h3>Website Support</h3>
-
-        <p>
-          Website setup, updates, SSL configuration,
-          and small business website maintenance.
-        </p>
-      </div>
-
-      <div class="service-card">
-        <h3>Remote Tech Support</h3>
-
-        <p>
-          Fast remote troubleshooting and technical support
-          using secure remote assistance tools.
+          Review your website's security settings, SSL configuration,
+          security headers, and identify common vulnerabilities.
         </p>
       </div>
 
     </div>
-
   </section>
 
-  <!-- ABOUT -->
-
   <section id="about">
-
     <h2 class="section-title">About Us</h2>
 
     <div class="about">
-
       <p>
-        Onilogic IT Services provides dependable IT support,
-        Microsoft 365 administration, cybersecurity support,
-        and technology solutions for small businesses,
-        schools, churches, and organizations.
+        Onilogic IT Services helps small businesses, churches, and nonprofits
+        build secure, professional websites that attract customers and
+        strengthen their online presence.
       </p>
 
-      <br>
-
       <p>
-        Our mission is to help businesses stay secure,
-        connected, and productive through reliable
-        technology support and modern IT solutions.
+        We specialize in website development, website maintenance, and website
+        security reviews designed for growing organizations.
       </p>
-
     </div>
-
   </section>
 
-  <!-- CONTACT -->
-
   <section id="contact">
-
     <h2 class="section-title">Contact Us</h2>
 
     <div class="contact">
+      <h3>Get Your Free Website Review</h3>
 
       <p>
-        📧 kamouzougan@onilogic.com
+        We will review your website and identify opportunities to improve
+        security, performance, and user experience.
       </p>
 
-      <p>
-        💻 Onilogic IT Services
-      </p>
+      <form name="contact" method="POST" data-netlify="true" action="/success.html">
+        <input type="hidden" name="form-name" value="contact">
 
-      <p>
-        Reliable IT Support & Cybersecurity
-      </p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p>📧 kamouzougan@onilogic.com</p>
     </div>
-
   </section>
 
-  <!-- FOOTER -->
-
   <footer>
-
-    <p>
-      © 2026 Onilogic IT Services. All Rights Reserved.
-    </p>
-
+    <p>© 2026 Onilogic IT Services. All Rights Reserved.</p>
   </footer>
 
 </body>
